@@ -78,6 +78,21 @@ This project provides a complete, user-friendly system for performing a wide var
 *   **Core Algorithms:** Implements fundamental DSP algorithms from scratch, including convolution by blocks and difference equation solvers, alongside leveraging MATLAB's powerful built-in functions for FFT, resampling, and audio I/O.
 *   **Hardware Integration:** Communicates with an Arduino board using the `serialport` interface for data acquisition.
 
+### ► Project Structure
+The repository is organized as follows:
+```
+.
+├── AudiosPrueba/                 # Sample audio files for testing
+├── inconos_app_diapositiva/      # Icon assets used in the GUI
+├── señales_app_Disapositiva/     # Image assets for the GUI and presentation
+├── sketch_sep29a/                # Arduino sketch (.ino file) for DAQ functionality
+├── GetAudioInputs.m              # MATLAB class for handling audio inputs (mic, file, DAQ)
+├── GetSyntheticSignals.m         # MATLAB class for generating synthetic signals
+└── Project_of_Dsp_App.mlapp      # The main MATLAB App Designer source file
+```
+*Other files include the project presentation, a `.prj` MATLAB project file, and exported code.*
+
+
 ### ► How to Run the Application
 
 1.  **Clone the repository:**
