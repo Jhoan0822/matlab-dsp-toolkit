@@ -6,10 +6,10 @@
 A comprehensive MATLAB application for the acquisition, processing, analysis, and visualization of digital signals. Developed as a project for the Digital Signals Processing course at Universidad Del Valle.
 
 **Contributors:**
-*   Alejandro Muñoz Gutierrez (2123843)
-*   Jhoan Eduardo Saldarriaga Serna (2122107)
-*   Luis Alfonso Manzano Bolaños (2010030)
-*   Junior Alejandro Gómez Alarcón (2110304)
+*   Alejandro Muñoz Gutierrez
+*   Jhoan Eduardo Saldarriaga Serna
+*   Luis Alfonso Manzano Bolaños
+*   Junior Alejandro Gómez Alarcón
 
 ---
 
