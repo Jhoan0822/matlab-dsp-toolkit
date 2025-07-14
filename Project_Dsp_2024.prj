@@ -1,0 +1,180 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="F:\1. Universidad Del valle\Procesamiento de señales\Project_Dsp\Project DSP-2024-II\Project_Dsp_2024.prj" location="F:\1. Universidad Del valle\Procesamiento de señales\Project_Dsp\Project DSP-2024-II" name="Project_Dsp_2024" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Project_Dsp_2024</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>JR_JES_AM_LM</param.authnamewatermark>
+    <param.email />
+    <param.company>University of valle</param.company>
+    <param.summary />
+    <param.description>This digital signal processing application enables users to import audio files, generate synthetic signals, and input discrete data vectors through dialog windows. It supports various signal manipulations, such as resampling, convolution, and volume adjustment, along with real-time playback and effects like echo and reverse. The app features graphical visualizations of signals in both time and frequency domains, ensuring users can analyze their data effectively. Additionally, built-in validation checks for NaN and Inf values maintain data integrity, enhancing usability for educational and practical applications in digital signal processing.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\inconos_app_diapositiva\potencia.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\University of valle\Project_Dsp_2024\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Project_Dsp_2024\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Project_Dsp_2024\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Project_Dsp_2024\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Project_Dsp_2024</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments 
+ Description 
+ 	 This digital signal processing application enables users to import audio files, generate synthetic signals, and input discrete data vectors through dialog windows. It supports various signal manipulations, such as resampling, convolution, and volume adjustment, along with real-time playback and effects like echo and reverse. The app features graphical visualizations of signals in both time and frequency domains, ensuring users can analyze their data effectively. Additionally, built-in validation checks for NaN and Inf values maintain data integrity, enhancing usability for educational and practical applications in digital signal processing.</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.summary />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Project_of_Dsp_App.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\GetAudioInputs.m</file>
+      <file>${PROJECT_ROOT}\GetSyntheticSignals.m</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\archivo-excel.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\bajar-volumen.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\Chirp_Waveform.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\Convolution.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\copy.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\Cos_Waveform.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\division (1).png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\girar-hacia-atras.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\image.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\jugar.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\mas.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\NI.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\onda-sonora.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\png-transparent-computer-icons-avatar-amazon-echo-sound-audio-heroes-text-logo.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\Potentiation.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\prohibicion.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\Ramp_Waveform.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\resta.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\simbolo-de-multiplicacion.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\Sin_Waveform.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\Sinc_Waveform.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\ST_Waveform.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\Trig_Waveform.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\US_Waveform.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\volumen.png</file>
+      <file>${PROJECT_ROOT}\inconos_app_diapositiva\wav.png</file>
+      <file>${PROJECT_ROOT}\señales_app_Disapositiva\AI_Generated_Image_2024-09-24_464842516034201.png</file>
+      <file>${PROJECT_ROOT}\señales_app_Disapositiva\Imagen2.png</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Project_Dsp_2024\for_testing" name="readme.txt" optional="true">F:\1. Universidad Del valle\Procesamiento de señales\Project_Dsp\Project DSP-2024-II\Project_Dsp_2024\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Project_Dsp_2024\for_testing" name="Project_Dsp_2024.exe" optional="false">F:\1. Universidad Del valle\Procesamiento de señales\Project_Dsp\Project DSP-2024-II\Project_Dsp_2024\for_testing\Project_Dsp_2024.exe</file>
+      <file location="${PROJECT_ROOT}\Project_Dsp_2024\for_testing" name="splash.png" optional="false">F:\1. Universidad Del valle\Procesamiento de señales\Project_Dsp\Project DSP-2024-II\Project_Dsp_2024\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
